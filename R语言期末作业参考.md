@@ -24,6 +24,14 @@ output: html_document
 
 `dnorm(-2, 10, 2)`   X=-2,均值等于10,标准差等于2的密度函数值
 
+`LETTERS[1:5]`  产生字母序列A,B,C,D,E
+
+`letters[5:1]`  产生字母序列e,d,c,b,a
+
+`rep(LETTERS[1:3], each = 3)`  A,B,C三个字母每个重复三次
+
+`rep(LETTERS[1:3], by = 3)`  产生字母序列A、B、C
+
 `pnorm(-2, 10, 2)`   概率值
 
 `pnorm(2.5)-pnorm(2)` 概率值相减 求差
